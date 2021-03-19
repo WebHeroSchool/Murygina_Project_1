@@ -88,7 +88,7 @@
 .main{
   width: 37%;
   padding: 75px 63% 200px 0;
-  background: top right no-repeat url('img/main_img.svg');
+  background: 1920px 0 no-repeat url('img/main_img.svg');
   background-size: 780px;
 }
 .main__title{
