@@ -97,7 +97,7 @@
   font: 700 66px/87px 'PT Serif', arial;
 }
 .main__title-text-highlight{
-  background-color: #ECF3FF;
+  background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);
 }
 .main__subtitle{
   width: 80%;

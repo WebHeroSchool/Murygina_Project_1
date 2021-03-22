@@ -100,8 +100,8 @@
    font: 700 50px/66px 'PT Serif', arial;
  }
  .main__title-text-highlight{
-   background-color: #ECF3FF;
- }
+   background: linear-gradient(180deg,rgba(255,255,255,1) 15%, #ECF3FF 15%);
+  }
  .main__subtitle{
    width: 90%;
    margin: 0 0 55px 11px;
