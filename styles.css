@@ -1,0 +1,29 @@
+.footer__dots{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 38px;
+  width: 32px;
+  height: 8px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.footer__dots > span,
+.footer__dots > span::before,
+.footer__dots > span::after {
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #C8DBFB;
+}
+.footer__dots > span::before {
+  content: '';
+  left: 12px;
+}
+.footer__dots > span::after {
+  content: '';
+  left: 24px;
+}

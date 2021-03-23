@@ -80,7 +80,7 @@
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 180px 0;
+  padding: 177px 0;
   list-style: none;
   text-align: center;
   background-color: #FFF;
@@ -150,5 +150,7 @@
  border-radius: 4px;
  transition: 0.5s;
  }
-
+ .footer__dots{
+   display: none;
+ }
 }
