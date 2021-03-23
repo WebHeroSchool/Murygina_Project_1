@@ -14,9 +14,13 @@
    text-decoration: none;
    color: #000;
    margin-bottom: 20px;
+   transition: opacity .5s;
  }
  .logo>span{
    display: none;
+ }
+ .logo:hover{
+   opacity: 50%;
  }
  .logo__circle{
    width: 28px;
@@ -94,6 +98,7 @@
   font-size: 30px;
   font-weight: 500;
   text-decoration: none;
+  transition: .5s ease-in-out;
 }
 .menu__item:hover {
   background-color: #CFD8DC;
@@ -148,7 +153,10 @@
  margin: 0 75px;
  background: #0056EC;
  border-radius: 4px;
- transition: 0.5s;
+ transition: opacity 0.5s;
+ }
+ .main__button:hover{
+   opacity: 50%;
  }
  .footer__dots{
    display: none;

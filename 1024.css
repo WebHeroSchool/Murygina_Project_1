@@ -54,7 +54,7 @@
   font: 500 14px/17px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
-  transition: opacity .5s ease-in-out;
+  transition: all .5s ease-in-out;
  }
  .menu__item:last-child{
    margin-right: 0;
@@ -68,7 +68,7 @@
    height: 3px;
    background: #0056EC;
    opacity: 0;
-   transition: .5s ease-in-out;
+   transition: all .5s ease-in-out;
  }
 
  .menu__item:hover{
@@ -77,7 +77,7 @@
  .menu__item:hover::after, .menu__item_active::after{
    opacity: 1;
    width:  100%;
-   transition: .5s ease-in-out;
+   transition: all .5s ease-in-out;
  }
  .menu__item_active::after{
    position: absolute;
@@ -91,7 +91,7 @@
  .menu__item_active:hover::after{
    opacity: 0;
    width: 0;
-   transition: .5s ease-in-out;
+   transition: all .5s ease-in-out;
  }
  .main{
    width: 43%;

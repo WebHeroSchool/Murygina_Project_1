@@ -17,6 +17,7 @@
   font: bold 24px/32px 'PT Serif', arial, Helvetica, sans-serif;
   text-decoration: none;
   color: #000;
+  transition: opacity .5s ease-in-out;
 }
 .logo__circle{
   width: 28px;
@@ -47,7 +48,7 @@
  font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
  color: #000;
  text-decoration: none;
- transition: .5s;
+ transition: all .5s ease-in-out;
 }
 .menu__item:last-child{
   margin-right: 0;
@@ -61,7 +62,7 @@
   height: 3px;
   background: #0056EC;
   opacity: 0;
-  transition: opacity .5s;
+  transition: all .5s ease-in-out;
 }
 
 .menu__item:hover{
@@ -84,7 +85,7 @@
 .menu__item_active:hover::after{
   opacity: 0;
   width: 0;
-  transition: .5s;
+  transition: all .5s ease-in-out;
 }
 .main{
   width: 37%;
